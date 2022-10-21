@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("./fondo.jpg");
+  background-position: 50%;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, .8);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  font-size: 1.3rem;
+}
+
+label{
+  color: rgb(0, 0, 0);
+  margin: 1rem 0;
+}
+
+input{
+  border-radius: 20px;
+  height: 20px;
+  border: none;
+  padding: 1rem;
+}
+
+input:last-child{
+  padding: 0;
+  margin-top: 2rem;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .8);
+  border: none;
+  transition: .4s;
+}
+
+input:last-child:hover{
+  background-color: black;
+  color: white;
+}
+
+.alert{
+  color: red;
+}
+
+.confirm{
+  color: rgb(255, 255, 255);
+}
+
+#saludo{
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
